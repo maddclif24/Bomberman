@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-field.css">
+    <title>Bomber-man</title>
+</head>
+<body>
+    <div class="description">
+        <ul>
+            <ol><b>IF ALL MONSTERS ARE DESTROYED - YOU WIN!</b></ol>
+            <ol>&#80; - Player <i>(can be destroyed)</i></ol>
+            <ol>&#77; - Monster <i>(can be destroyed)</i></ol>
+            <ol>&#9608; - Wall <i>(can not be destroyed)</i></ol>
+            <ol>&#9587; - Box <i>(can be destroyed)</i></ol>
+            <ol>&#66; - Bomb <i>(the explosion is triggered after 2.5 seconds)</i></ol>
+            <ol>&#70; - Fire <i>(explosion lasts 1 second, destroys destructible objects)</i></ol>
+            <ol><b>Control:</b></ol>
+            <ul>
+                <ol><span class="control">W</span> - <i>move up</i></ol>
+                <ol><span class="control">A</span> - <i>move left</i></ol>
+                <ol><span class="control">S</span> - <i>move down</i></ol>
+                <ol><span class="control">D</span> - <i>move right</i></ol>
+                <ol><span class="control">Space</span> - <i>set a bomb</i></ol>
+            </ul>
+        </ul>
+    </div>
+     <pre class="field" id="pre-field"></pre>
+<script type="module" src="render.js"></script>
+<script type="module" src="boom.js"></script>
+<script type="module" src="clearFire.js"></script>
+<script type="module" src="moveMonsters.js"></script>
+</body>
+</html>
