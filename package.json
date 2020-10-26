@@ -1,0 +1,22 @@
+{
+  "name": "bomberman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddclif24/Bomberman.git"
+  },
+  "author": "maddclif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddclif24/Bomberman/issues"
+  },
+  "homepage": "https://github.com/maddclif24/Bomberman#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
